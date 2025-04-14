@@ -2,13 +2,6 @@
 Project Overview
 This project is an end-to-end analysis of a credit risk dataset aimed at identifying key factors that influence credit risk classification. The analysis is implemented in R and includes extensive data cleaning, exploratory data analysis, visualization, and statistical hypothesis testing.
 
-Team Members
-Ryan Lim Xin Kai, TP072014
-
-Sanjivan A/L Thiyageswaran, TP070073
-
-Fareez Daniel bin Rozaime, TP077930
-
 Key Features
 Data Preparation and Cleaning
 
