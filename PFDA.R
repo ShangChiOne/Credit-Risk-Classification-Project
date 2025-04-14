@@ -1,7 +1,3 @@
-# Ryan Lim Xin Kai, TP072014
-# Sanjivan A/L Thiyageswaran, TP070073
-# Fareez, TP077930
-
 
 # Install and load required packages using pacman
 if (!require("pacman")) install.packages("pacman")
@@ -126,13 +122,6 @@ ggplot(credit_data, aes(x = credit_amount)) +
   geom_histogram(binwidth = 1000, fill = "blue", color = "black") + 
   labs(title = "Distribution of Credit Amount", x = "Credit Amount", y = "Frequency")
 
-
-
-
-
-
-
-# --- Ryan Lim Xin Kai (TP072014) ---
 
 # Install ggmosaic for mosaic plot
 if (!require("ggmosaic")) install.packages("ggmosaic")
@@ -415,11 +404,6 @@ if (chisq_test_age$p.value < 0.05) {
 
 
 
-
-
-
-
-# --- Sanjivan A/L Thiyageswaran (TP070073) ---
 # Objective 3: Analyze the effect of financial standing on credit risk classification.
 
 # Section 1: Validation
@@ -512,10 +496,6 @@ if (summary(glm_checking)$coefficients[2, 4] < 0.05) {
 }
 
 
-
-
-
-# --- Sanjivan A/L Thiyageswaran (TP070073) ---
 # Objective 4: Analyze the impact of repayment duration on credit risk classification.
 
 # Section 1: Validation
@@ -570,11 +550,6 @@ if (summary(glm_duration)$coefficients[2, 4] < 0.05) {
 
 
 
-
-
-
-
-# --- Fareez Daniel bin Rozaime (TP077930) ---
 # Objective 5: Examine the impact of loan amount on the likelihood of credit risk.
 
 # Load required libraries
@@ -720,7 +695,6 @@ print(logit_model_plot)
 
 
 
-# --- Fareez Daniel bin Rozaime (TP077930) ---
 # Objective 6: Analyze the effect of the number of dependents on credit risk classification.
 
 # Factorizing age, class, and purpose if needed
